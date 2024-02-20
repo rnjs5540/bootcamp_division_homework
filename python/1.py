@@ -4,8 +4,12 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    a = input()
 
+    for i in a[::-1]:
+        print(i, end='')
+    
+    
     return
 
 
