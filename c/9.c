@@ -11,7 +11,7 @@ int main() {
 
     scanf("%d", &n);
     while (n <= 0) {
-        printf("X");
+        printf("X\n");
         scanf("%d", &n);
     }
 
