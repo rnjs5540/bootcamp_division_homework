@@ -10,13 +10,14 @@ int main() {
     int sum = 0;
 
     scanf("%d", &n);
-    if (n <= 0)
+    while (n <= 0) {
         printf("X");
-    else {
-        for (int i = 1; i <= n; ++i)
-            sum += i;
-        printf("%d", sum);
+        scanf("%d", &n);
     }
 
+    for (int i = 1; i <= n; ++i)
+        sum += i;
+    printf("%d", sum);
+         
     return 0;
 }
