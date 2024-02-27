@@ -5,7 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    answer = ['a','e','i','o','u']
+    ch = input()
+    if ch in answer:
+        print("O")
+    else:
+        print("X")
     return
 
 

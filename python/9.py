@@ -5,6 +5,15 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    n = int(input())
+    while(n <= 0):
+        print('X')
+        n = int(input())
+    
+    sum = 0
+    for i in range(n+1):
+        sum += i
+    print(sum)
 
     return
 

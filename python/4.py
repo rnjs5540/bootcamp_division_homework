@@ -5,7 +5,17 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    n = int(input())
+    if n < 60:
+        print("F")
+    elif n < 70:
+        print("D")
+    elif n < 80:
+        print("C")
+    elif n < 90:
+        print("B")
+    else:
+        print("A")
     return
 
 

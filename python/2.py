@@ -5,7 +5,10 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    n = int(input())
+    if n >= 61:
+        print("DISCOUNT")
+    print("BOARD")
     return
 
 
