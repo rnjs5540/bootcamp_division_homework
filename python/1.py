@@ -6,9 +6,7 @@
 def main():
     a = input()
 
-    for i in a[::-1]:
-        print(i, end='')
-    
+    print(a[::-1])
     
     return
 

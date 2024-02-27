@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+    int n;
+    int a = 0;
+    scanf("%d", &n);
+    while (n) {
+        a *= 10;
+        a += n % 10;
+        n /= 10;
+    }
+    printf("%d", a);
 
     return 0;
 }
